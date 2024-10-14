@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="garden">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- manrope google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/d7b7563d24.js" crossorigin="anonymous"></script>
+    <!-- tailwind custom color -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'gradient-start': '#FF8938',
+                        'gradient-end': '#F00',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="font-manrope">
+    <div class="w-full m-auto my-3 items-center text-center">
+        <nav class="top-0 w-4/5 m-auto ">
+            <div class="navbar">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 py-10 shadow">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#blog">About</a></li>
+                            <li><a href="#FAQ">Projects</a></li>
+                            <li><a href="#contact">Skills</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="font-bold text-lg ">Miari</a>
+                </div>
+                <div class="navbar-center hidden lg:flex ml-56">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a href="#home">Home</a></li>
+                            <li><a href="#blog">About</a></li>
+                            <li><a href="#FAQ">Projects</a></li>
+                            <li><a href="#contact">Skills</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+         </section>
+         <!-- Home section -->
+         <section class="container w-10/12 md:w-3/4 m-auto lg:w-4/5 my-48">
+                <div class="my-20">
+                    <div class="flex items-center">
+                        <div>
+                            <h1 class="text-6xl font-extrabold">
+                                Hello there <br>
+                                I am Miari</h1>
+                            <p class="py-6 flex justify- items-center text-start w-4/5">I am a professional web designer, dedicated to delivering high-quality websites with quick turnaround times. I take pride in ensuring my clients are fully satisfied with the final result. If you aren't completely happy, I will make revisions until it meets your expectations. Please feel free to contact me for your next project—I look forward to working with you and delivering a solution that meets your needs
+                            </p>
+                            <button class="btn btn-outline btn-success">
+                                contact me
+                                <i class="fa-solid fa-arrow-trend-up"></i>
+                            </button>
+                        </div>
+                        <div>
+                            <img src="/images/man 1.jpg" class="h-80 max-w-fit rounded-lg shadow-2xl" />
+                        </div>
+                    </div>
+                </div>     
+         </section>
+         <!-- about section -->
+         <section class="container w-10/12 md:w-3/4 m-auto lg:w-4/5 my-60 flex gap-12 flex-col lg:flex-row">
+
+             <div class="grid gap-8 grid-cols-1 md:grid-cols-2 flex-1">
+                
+                <div class="row-span-2 bg-[#E6A6231A] rounded-lg px-8 py-12 flex justify-center items-center">
+                    <img src="images/js.png" alt="">
+                </div>
+                <div class="row-span-2 bg-[#E6A6231A] rounded-lg px-8 py-12 flex justify-center items-center">
+                    <img src="images/html.png" alt="">
+                </div>
+                <div class="row-span-2 bg-[#E6A6231A] rounded-lg px-8 py-12 flex justify-center items-center">
+                    <img src="images/css.png" alt="">
+                </div>
+                    
+                <div class="row-span-2 bg-[#E6A6231A] rounded-lg px-8 py-12 flex justify-center items-center">
+                    <img src="images/tailwind.png" alt="">
+                </div> 
+            </div>
+            <div class="space-y-5 flex-1">
+                <h3 class="text-5xl font-extrabold">Heres my programming skill</h3>
+                <p class="">
+                    I'm a skilled web designer with a strong command of HTML, CSS, JavaScript, and Tailwind. With a deep understanding of modern web technologies, I specialize in creating responsive, visually appealing, and functional websites. Whether it's building from scratch or enhancing existing designs, I expertise ensures that each project is executed with precision and attention to detail.
+                    <br>
+                    Known for my quick turnaround and satisfaction guarantee, I'm are committed to delivering high-quality results while accommodating client feedback until the final product aligns perfectly with their vision.
+                </p>
+                <h4 class="text-xl font-extrabold mt-8">Responsive Design</h4>
+                <p>Ensuring that websites perform optimally across different browsers and platforms.</p>
+
+                <h4 class="text-xl font-extrabold mt-8">Cross-browser Compatibility</h4>
+                <p>Expertise in creating websites that adapt seamlessly to various screen sizes and devices.</p>
+
+                <h4 class="text-xl font-extrabold mt-8">SEO Best Practices</h4>
+                <p>Understanding of SEO fundamentals to enhance website visibility and search engine ranking</p>
+
+                <h4 class="text-xl font-extrabold mt-8">API Integration</h4>
+                <p>Experience with integrating third-party APIs to enhance website functionality.</p>
+
+            </div>
+
+         </section>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+</html>
